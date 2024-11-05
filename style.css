@@ -157,7 +157,7 @@
 
 /* /------------------------------------- */
 
-@media (min-width: 376px) and (max-width: 1000px) {
+@media (min-width: 400px) and (max-width: 1000px) {
     .card {
         margin: 5% 15%; /* Adjust margin for smaller screens */
         padding: 10px; /* Adjust padding if needed */
@@ -191,7 +191,7 @@
 
 /* -------------------------------------- */
 
-@media (max-width:375px) {
+@media (max-width:399px) {
     *{
         margin: 0px;
         padding: 0px;
