@@ -50,9 +50,9 @@ The CSS file (`style.css`) includes breakpoints to optimize display across devic
 
 | Desktop View               | Mobile View                |
 |----------------------------|----------------------------|
-| ![Desktop Screenshot](path/to/desktop-screenshot.png) | ![Mobile Screenshot](path/to/mobile-screenshot.png) |
+| <img src="https://github.com/pawan00126/Recipe-Page/blob/main/card-desktop.png" alt="Desktop Screenshot" width="400"/> | <img src="https://github.com/pawan00126/Recipe-Page/blob/main/card-mobile.png" alt="Mobile Screenshot" width="200"/> |
 
-Replace `path/to/desktop-screenshot.png` and `path/to/mobile-screenshot.png` with actual screenshot paths if you add images to the project.
+
 
 ## License
 
