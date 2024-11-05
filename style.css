@@ -1,0 +1,262 @@
+
+
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    body{
+        background-color: aquamarine;
+    }
+    
+    .card{
+        background-color: white;
+        margin: 7% 30%;
+        padding: 15px;
+        padding-top: 20px;
+        border-radius: 15px;
+        
+    }
+    
+    .img{
+        
+        display: flex;
+        padding: 15px 7px;
+    }
+    
+    img{
+        width: 99%;
+        border-radius: 10px;
+    }
+    
+    .heading{
+        color:hsl(332, 51%, 32%);
+    }
+    
+    .main{
+        font-size: 30px;
+        line-height: 50px;
+        font-weight: bold;
+    }
+    
+    
+    .content{
+        padding: 15px;
+        padding-left: 20px;
+    }
+    
+    
+    .block-time{
+        background-color: hsl(330, 100%, 98%);
+        padding-left: 20px;
+        margin: 10px;
+    }
+    
+    #prep-heading{
+        font-size: 20px;
+        font-weight: 800;
+        color: purple;
+    }
+    
+    .list-1{
+        /* background-color: chartreuse; */
+        padding-left: 25px;
+    
+    }
+    
+    .list-1 li{
+        margin: 5px;
+    }
+    
+    .block-time p{
+        font-size: 1.5vw;
+    }
+    
+    /* ------------------------------------ */
+    
+    hr{
+        margin: 15px;
+    }
+    
+    
+    .Ingredients{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    
+    .Ingredients p{
+        /* margin-left: 30px; */
+        font-size: 30px;
+    }
+    
+    .list-2 ul{
+        /* background-color: blueviolet; */
+        margin-left: 10px;
+    }
+    
+    .list-2 li{
+        margin: 5px;
+        margin-left: 20px;
+        padding-left: 15px;
+    }
+    
+    
+    /* ------------------------------------------ */
+    
+    .Instructions{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .Instructions p{
+        font-size: 30px;
+        
+    }
+    
+    .list-2 ol{
+        /* background-color: blueviolet; */
+        margin-left: 10px;
+    }
+    
+    /* ------------------------- */
+    
+    .Nutrition{
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .Nutrition p{
+        font-size: 30px;
+    }
+    
+    
+    .Nutrition table{
+        background-color: hsl(330, 100%, 98%);
+    }
+    
+    table{
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    tr{
+        border-bottom: 2px solid rgb(139, 137, 137);
+    }
+    
+    td{
+        padding: 10px;
+    }
+    
+    tr:last-child{
+        border-bottom: none;
+    }
+
+
+
+/* /------------------------------------- */
+
+@media (min-width: 376px) and (max-width: 1000px) {
+    .card {
+        margin: 5% 15%; /* Adjust margin for smaller screens */
+        padding: 10px; /* Adjust padding if needed */
+    }
+
+    .img {
+        padding: 10px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 10px; /* Add slight border-radius if preferred */
+    }
+
+    .main {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .block-time {
+        padding-left: 15px;
+    }
+
+    .list-1, .list-2 ul, .list-2 ol {
+        padding-left: 20px;
+    }
+
+    /* Additional adjustments as necessary */
+}
+
+
+/* -------------------------------------- */
+
+@media (max-width:375px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .card{
+        background-color: white; 
+        margin: 0px;
+        border-radius: 0px; 
+        padding: 0px; 
+    }
+    
+    .img{
+        
+        display: flex;
+        padding: 0px;
+    }
+    
+    img{
+        width: 100%;
+        border-radius: 0px;
+    }
+
+
+    .heading{
+        color:hsl(332, 51%, 32%);
+        /* padding: 0px; */
+    }
+    
+    .main{
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: bold;
+    }
+    
+    
+    .content{
+        padding: 15px;
+        /* padding-left: 0px; */
+    }
+    
+    
+    .block-time{
+        background-color: hsl(330, 100%, 98%);
+        padding-left: 10px;
+        margin: 10px;
+    }
+
+    #prep-heading{
+        font-size: 20px;
+        font-weight: 800;
+        color: purple;
+    }
+    
+    
+    
+    /* ------------------------------------ */
+    
+    hr{
+        margin: 30px auto;
+    }
+    
+    .list-2 ul{
+        line-height: 25px;
+    }
+    
+    
+}
